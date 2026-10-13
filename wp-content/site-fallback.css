@@ -1,0 +1,15 @@
+/* LD Line - fallback do site estatico (sem PHP, sem JS obrigatorio).
+   Garante que o banner da homepage (slider Pagelayer com as fotos
+   LD-Line.jpg / LD-Line-2.jpg) fique visivel mesmo se o JavaScript
+   falhar no file:// ou no GitHub Pages:
+   - os slides nascem com opacity:0 e o JS adiciona .pagelayer-slide-show;
+   - esta regra mostra o primeiro slide somente enquanto o JS ainda
+     nao atuou (seletor :not), sem quebrar o crossfade quando o JS roda. */
+.pagelayer-bgimg-slide:first-child:not(.pagelayer-slide-show) {
+  opacity: 1 !important;
+}
+
+/* Altura minima de seguranca para a secao hero da homepage. */
+.p-jcl8282 {
+  min-height: 60vh;
+}
