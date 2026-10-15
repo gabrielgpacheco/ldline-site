@@ -13,3 +13,11 @@
 .p-jcl8282 {
   min-height: 60vh;
 }
+
+/* Imagens com width/height: garante proporcao quando o CSS limita
+   a largura (ex: .p-cry4482 img{max-width:39%}). Sem isso o atributo
+   height="..." vira altura fixa e a imagem estica (Lighthouse
+   image-aspect-ratio). */
+.pagelayer-img {
+  height: auto;
+}

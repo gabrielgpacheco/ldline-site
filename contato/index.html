@@ -113,7 +113,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	}
 
 </style>
-<link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min.css' media='all' />
 <style id="classic-theme-styles-inline-css">
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -131,8 +130,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 </style>
 <link rel='stylesheet' id='popularfx-style-css' href='../wp-content/uploads/popularfx-templates/dentalcare/style.css' media='all' />
-<link rel='stylesheet' id='popularfx-sidebar-css' href='../wp-content/themes/popularfx/sidebar.css' media='all' />
 <link rel='stylesheet' id='pagelayer-google-font-header-css' href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C600%2C700&#038;display=swap' media='all' />
+<script>var pagelayer_settings=pagelayer_settings||{tablet_breakpoint:780,mobile_breakpoint:480};</script>
 <script id="jquery-core-js" src="../wp-includes/js/jquery/jquery.min.js" defer></script>
 <script id="jquery-migrate-js" src="../wp-includes/js/jquery/jquery-migrate.min.js" defer></script>
 <script id="pagelayer-frontend-js" src="../wp-content/plugins/pagelayer/js/pagelayer-bundle.js" defer></script>
@@ -248,7 +247,7 @@ body.rtl .p-s0q2439 .pagelayer-phone-icon{margin-left:15px}
 .p-cry4482 .pagelayer-image-caption{color: #0986c0}
 </style><div class="pagelayer-image-holder pagelayer-anim-par">
 			<a class="pagelayer-ele-link" href="../" pagelayer-image-link-type="custom_url">
-				<img decoding="async" class="pagelayer-img pagelayer-animation-{{anim_hover}}" src="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg" title="padrão-em-breve-300x300" alt="padrão-em-breve-300x300" srcset="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg, ../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg 1x, " />
+				<picture><source srcset="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.webp" type="image/webp"><img decoding="async" class="pagelayer-img pagelayer-animation-{{anim_hover}}" src="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg" title="padrão-em-breve-300x300" alt="padrão-em-breve-300x300" width="512" height="512" /></picture>
 				
 			</a>
 		</div>
@@ -363,13 +362,14 @@ margin-top: 60px;
 <div pagelayer-id="v5t3259" class="p-v5t3259 pagelayer-google_maps">
 <style pagelayer-style-id="v5t3259">.p-v5t3259 iframe{height: 300px}
 </style><div class="pagelayer-google-maps-holder">
-			<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa" marginheight="0" scrolling="no" marginwidth="0" frameborder="0" src="https://maps.google.com/maps?q=
-Av. Rio Branco, 133, centro
-&t=m&z=15&output=embed&iwloc=near" aria-label="
-Av. Rio Branco, 133, centro
-"></iframe>
-			
-		</div></div>
+			<button type="button" class="pagelayer-maps-facade" data-maps-src="https://maps.google.com/maps?q=Av.%20Rio%20Branco,%20133,%20centro&t=m&z=15&output=embed&iwloc=near" aria-label="Carregar mapa: Av. Rio Branco, 133, centro">
+				<span class="pagelayer-maps-facade-title">Av. Rio Branco, 133 — Centro</span>
+				<span class="pagelayer-maps-facade-cta">Clique para carregar o mapa</span>
+			</button>
+			<noscript><iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa" src="https://maps.google.com/maps?q=Av.%20Rio%20Branco,%20133,%20centro&t=m&z=15&output=embed&iwloc=near" style="width:100%;height:300px;border:0"></iframe></noscript>
+		</div>
+		<style>.pagelayer-maps-facade{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%;height:300px;border:1px solid #e3e3e3;background:#f4f4f4;color:#595d8f;font-family:Poppins,Arial,sans-serif;cursor:pointer}.pagelayer-maps-facade-title{font-size:18px;font-weight:600}.pagelayer-maps-facade-cta{font-size:15px;color:#ff5b4f}</style>
+		<script>document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.pagelayer-maps-facade');if(!b)return;var f=document.createElement('iframe');f.src=b.getAttribute('data-maps-src');f.title='Mapa';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';f.setAttribute('aria-label',b.getAttribute('aria-label'));f.style.cssText='width:100%;height:300px;border:0';b.replaceWith(f);});</script></div>
 <div pagelayer-id="oij5364" class="p-oij5364 pagelayer-text">
 <div class="pagelayer-text-holder"><p><br /></p></div></div>
 </div></div>
@@ -543,7 +543,7 @@ body.rtl .p-a719611 .pagelayer-phone-icon{margin-left:15px}
 .p-c4t2747 .pagelayer-image-caption{color: #0986c0}
 </style><div class="pagelayer-image-holder pagelayer-anim-par">
 			
-				<img decoding="async" class="pagelayer-img pagelayer-animation-{{anim_hover}}" src="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg" title="padrão-em-breve-300x300" alt="padrão-em-breve-300x300" srcset="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg, ../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg 1x, " />
+				<picture><source srcset="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.webp" type="image/webp"><img decoding="async" class="pagelayer-img pagelayer-animation-{{anim_hover}}" src="../wp-content/uploads/2025/11/cropped-padrao-em-breve-300x300-1.jpg" title="padrão-em-breve-300x300" alt="padrão-em-breve-300x300" width="512" height="512" /></picture>
 				
 			
 		</div>
