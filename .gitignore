@@ -3,6 +3,7 @@ Thumbs.db
 *.log
 # privado local — nunca vai para o GitHub
 DEPLOY-LOCAL.md
+MIGRAR-WP-PARA-ESTATICO.md
 # duplicatas PHP do Pagelayer — Pages não executa PHP, só poluem o deploy
 wp-content/plugins/pagelayer/js/givejs.php
 wp-content/plugins/pagelayer/css/givecss.php
